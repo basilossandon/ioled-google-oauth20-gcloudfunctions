@@ -1,0 +1,19 @@
+{
+  "name": "ioled-back",
+  "version": "1.0.0",
+  "description": "iOLED Back-end auth with Google OAuth2 & cookie-session & MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@passport-next/passport-google-oauth2": "^1.0.0",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
